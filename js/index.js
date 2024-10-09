@@ -1,4 +1,12 @@
 console.log("ijii");
+console.log("ijii");
+console.log("ijii");
+
+
+
+
+
+
 // fetch("https://openapi.programming-hero.com/api/peddy/categories")
 //   .then((response) => {
 //     response.json()
