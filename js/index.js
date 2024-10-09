@@ -1,26 +1,14 @@
-console.log("ijii");
-console.log("ijii");
-console.log("ijii");
+console.log(12345)
+// let urlCate = "https://openapi.programming-hero.com/api/peddy/categories";
+
+// const categoryByTab () => {
+
+//     fetch(urlCate)
+//     .then(response => response.json())
+//     .then(data => console.log(data))
+//     .catch(error => console.log(error))
+
+// };
 
 
-
-
-
-
-// fetch("https://openapi.programming-hero.com/api/peddy/categories")
-//   .then((response) => {
-//     response.json()
-//   })
-//   .then((data) => {
-//     console.log(data); // fetched data
-//   })
-//   .catch((error) => {
-//     console.error("Error fetching data:", error); //  errors here
-//   });
-
-//   const displayCategorys = () => {
-    
-//   }
-
-
-//   displayCategorys()
+// categoryByTab()
