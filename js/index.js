@@ -33,3 +33,7 @@ const displayCategories = (categories) => {
 catagortFun()
 
 
+setTimeout(() => {
+    document.getElementById("my_modal_adopt").close();
+}, 3000);
+

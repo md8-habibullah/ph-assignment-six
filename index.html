@@ -131,7 +131,7 @@
             <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
             <div id="carder-bap" class="grid grid-cols-3">
 
-              <div class="bg-gray-300 w-72 m-3 rounded-md">
+              <div class="bg-gray-200 w-72 m-3 rounded-md">
                 <figure>
                   <img
                     src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -142,23 +142,27 @@
                   <div class="space-y-1">
                     <!-- for iconsssssssssssss -->
                      <div class="flex justify-start">
-                      <img src="./add-img/grid.png" alt="" class="w-5 ">
-                      <h3 class="font-bold">Breed : </h3>
+                      <img src="./add-img/grid.png" alt="" class="w-5 mr-2">
+                      <h3 class="font-bold">Breed</h3>
+                      <h5 class="mx-2 font-bold">:</h5>
                       <h4 class="font-bold">Golder retriver</h4>
                      </div>
                      <div class="flex justify-start">
-                      <img src="./add-img/calendar.png" alt="" class="w-5">
-                      <h3 class="font-bold">Birth : </h3>
+                      <img src="./add-img/calendar.png" alt="" class="w-5 mr-2">
+                      <h3 class="font-bold">Birth</h3>
+                      <h5 class="mx-2 font-bold">:</h5>
                       <h4 class="font-bold">2024</h4>
                      </div>                   
                      <div class="flex justify-start">
-                      <img src="./add-img/gender.png" alt="" class="w-5">
-                      <h3 class="font-bold">Gender : </h3>
+                      <img src="./add-img/gender.png" alt="" class="w-5 mr-2">
+                      <h3 class="font-bold">Gender</h3>
+                      <h5 class="mx-2 font-bold">:</h5>
                       <h4 class="font-bold">Female</h4>
                      </div>                   
                      <div class="flex justify-start">
-                      <img src="./add-img/dollar.png" alt="" class="w-5">
-                      <h3 class="font-bold">Price : </h3>
+                      <img src="./add-img/dollar.png" alt="" class="w-5 mr-2">
+                      <h3 class="font-bold">Price</h3>
+                      <h5 class="mx-2 font-bold">:</h5>
                       <h4 class="font-bold">199$</h4>
                      </div>                
                     </div>
@@ -166,7 +170,24 @@
                     <button>
                       <img src="./add-img/like.png" class="w-7"">
                     </button>
-                    <button class="btn btn-primary">Adopt</button>
+                    <div>
+                      <!-- Open the modal using ID.showModal() method -->
+                      <button id="my_modal_adopt" class="btn" onclick="my_modal_1.showModal()">Adopt</button>
+                      <dialog id="my_modal_1" class="modal">
+                        <div class="modal-box">
+                          <h3 class="text-4xl items-center font-bold">Congrarualtion
+                          </h3>
+                          <h2 class="py-4 text-xl">Adoption process is start for your pet
+                        </h2>
+                          <div class="modal-action">
+                            <form method="dialog">
+                              <!-- if there is a button in form, it will close the modal -->
+                              <button class="btn">Close</button>
+                            </form>
+                          </div>
+                        </div>
+                      </dialog>
+                    </div>
                     <button class="btn btn-primary">Details</button>
                   </div>
                 </div>
