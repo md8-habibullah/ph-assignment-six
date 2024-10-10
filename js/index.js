@@ -14,12 +14,22 @@ const displayCategories = (categories) => {
   const categorynm = document.getElementById("category-name")
   categories.forEach(petCategory => {
     // console.log(petCategory)
+
     const button = document.createElement("button")
-    button.classList = "btn btn-accent"
+    const icon = document.createElement("img")
+    icon.src = petCategory.category_icon
+
+    button.classList = "btn text-3xl my-4"
+
+    // button.innerHTML = petCategory.category_icon
     button.innerText = petCategory.category
-    categorynm.append(button)
+    button.appendChild(icon)
+
+    categorynm.appendChild(button)
   }
 );
 }
 
 catagortFun()
+
+
